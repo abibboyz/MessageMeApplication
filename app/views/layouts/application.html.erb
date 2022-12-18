@@ -10,17 +10,9 @@
     <%= javascript_importmap_tags %>
   </head>
   <body>
-      <div class="ui inverted menu">
-        <a class="item">
-          Home
-        </a>
-        <a class="item">
-          Messages
-        </a>
-        <a class="item">
-          Friends
-        </a>
-      </div>
-    <%= yield %>
+    <%= render 'layouts/navigation'%>
+    <div class = "ui container">
+      <%= yield %>
+    </div>
   </body>
 </html>
