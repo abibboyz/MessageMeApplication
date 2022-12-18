@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+For font awesome icon generation 
+https://gauger.io/fonticon/
