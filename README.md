@@ -26,3 +26,6 @@ Things you may want to cover:
 
 For font awesome icon generation 
 https://gauger.io/fonticon/
+
+Hirb.enable --> helps to display data in console in tabular format.
+command >> <any command> eg.Message.all
