@@ -12,9 +12,11 @@
   </head>
   <body>
     <%= render 'layouts/navigation'%>
-    <div class = "ui container">
-      <%= render 'layouts/messages' %>
-      <%= yield %>
+    <div data-controller="custom">
+      <div class = "ui container">
+        <%= render 'layouts/messages' %>
+        <%= yield %>
+      </div>
     </div>
   </body>
 </html>
