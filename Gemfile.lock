@@ -89,6 +89,8 @@ GEM
       irb (>= 1.5.0)
       reline (>= 0.3.1)
     erubi (1.11.0)
+    esbuild-rails (0.1.4)
+      rails (>= 6.0.0)
     ffi (1.15.5)
     globalid (1.0.0)
       activesupport (>= 5.0)
@@ -227,6 +229,7 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
+  esbuild-rails (~> 0.1.4)
   hirb
   importmap-rails
   jbuilder
