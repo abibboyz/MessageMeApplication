@@ -9,6 +9,7 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+    <%= javascript_include_tag 'jquery.min.js' %>
   </head>
   <body>
     <%= render 'layouts/navigation'%>
@@ -16,6 +17,7 @@
       <div class = "ui container">
         <%= render 'layouts/messages' %>
         <%= yield %>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       </div>
     </div>
   </body>
